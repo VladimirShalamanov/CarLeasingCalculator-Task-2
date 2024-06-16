@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>CarLeasingCalculator-Task-2</title>
+</head>
+
+<body>
+    <section>
+        <h1>Car Leasing Calculator</h1>
+
+        <article class="general-field">
+            <div class="left-input">
+                <label for="carType">Car Type:</label>
+                <form action="#">
+                    <select name="carType" id="carType">
+                        <option value="brand-new">Brand New</option>
+                        <option value="used">Used</option>
+                    </select>
+                </form>
+
+                <label for="text">Car Value (€10,000 - €200,000):</label>
+                <form action="#">
+                    <input type="text" id="name" name="name" />
+                </form>
+
+                <form action="#">
+                    <input type="range" id="volume" name="volume" min="1" max="100" />
+                </form>
+            </div>
+
+            <div class="right-input">
+                <label for="lease-period">Lease Period (months):</label>
+                <form action="#">
+                    <select name="lease-period" id="lease-period">
+                        <option value="one">12</option>
+                        <option value="two">24</option>
+                        <option value="three">36</option>
+                        <option value="four">48</option>
+                        <option value="five">60</option>
+                    </select>
+                </form>
+
+                <label for="text">Down Payment (10% - 50%):</label>
+                <form action="#">
+                    <input type="text" id="name" name="name" />
+                </form>
+
+                <form action="#">
+                    <input type="range" id="volume" name="volume" min="1" max="100" />
+                </form>
+            </div>
+
+            <hr>
+        </article>
+
+        <article class="end-field">
+            <h2>Leasing Details</h2>
+
+            <article>
+                <div class="left-details">
+                    <p>Total Leasing Cost: €128408.32</p>
+                    <p>Down Payment: €12000.00</p>
+                </div>
+
+                <hr class="vertical-line">
+
+                <div class="right-details">
+                    <p>Monthly Installment: €1940.14</p>
+                    <p>Interest Rate: 2.99%</p>
+                </div>
+            </article>
+        </article>
+    </section>
+</body>
+
+</html>

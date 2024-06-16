@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: auto;
+    margin: auto;
+    width: max-content;
+}
+
+section h1 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+section h2 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.general-field {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.general-field div form {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.general-field div label {
+    font-weight: bold;
+}
+
+.general-field div form select,
+input {
+    width: 250px;
+    height: 2.5em;
+}
+
+.left-input {
+    padding-right: 20px;
+}
+
+.right-input {
+    padding-left: 20px;
+}
+
+.general-field hr {
+    width: 100%;
+}
+
+.end-field article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.end-field .left-details, .right-details {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.end-field p {
+    font-weight: bold;
+}
